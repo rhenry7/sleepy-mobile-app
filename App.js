@@ -16,6 +16,7 @@ export function App() {
     TrackPlayer.registerPlaybackService(() => require('./components/service.js'));
     TrackPlayer.updateOptions({
         //   console.log('update options'),
+        // test 
           stopWithApp: true,
           capabilities: [
               TrackPlayer.CAPABILITY_PLAY,

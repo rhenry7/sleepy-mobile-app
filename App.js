@@ -14,6 +14,7 @@ export function App() {
       console.log('player is setup');
     });
     TrackPlayer.registerPlaybackService(() => require('./components/service.js'));
+
     TrackPlayer.updateOptions({
         //   console.log('update options'),
         // test 
